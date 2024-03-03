@@ -1,0 +1,5 @@
+[
+    { "deptno":111,"deptname":"IT","locationno":11},
+    { "ldeptno":222,"deptname":"computer science","locationno":22}
+
+]
