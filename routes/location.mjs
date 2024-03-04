@@ -34,4 +34,17 @@ router.get('/', async (req, res) => {
         else 
         res.json(result).status(201);
       });
+        //Update a Location_id PATCH
+      router.patch('/location/:locatinN', async (req, res) => {
+ 
+        let query = { locationno: Number(req.params.locatinN) };
+      
+        let result = await collection.updateMany(query, {
+          $set: { locationno: req.body.locationno },
+        });
+      
+        console.log(result)
+        if (result.upsertedCount === 0 ) res.status(404).send('Not found');
+        else res.json(result).status(200);
+      });
 export default router;

@@ -33,5 +33,20 @@ router.post('/', async (req, res) => {
     else 
     res.json(result).status(201);
   });
+
+    //Update a Department PATCH
+router.patch('/department/:deptno', async (req, res) => {
+ 
+      let query = { dept_id: Number(req.params.deptno) };
+    
+      let result = await collection.updateMany(query, {
+        $set: { deptno: req.body.dept_id },
+      });
+    
+      console.log(result)
+      if (result.upsertedCount === 0 ) res.status(404).send('Not found');
+      else res.json(result).status(200);
+    });
+    
   
 export default router;
