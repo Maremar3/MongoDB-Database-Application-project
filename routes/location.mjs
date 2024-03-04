@@ -23,5 +23,15 @@ router.get('/', async (req, res) => {
     else res.send(result).status(200);
   });
   
+    //Create POST new Location
 
+    router.post('/', async (req, res) => {
+        let collection = await db.collection('location');
+        let newDocument = req.body;
+           
+        let result = await collection.insertOne(newDocument);
+        if (!result) res.status(404).send('Not found');
+        else 
+        res.json(result).status(201);
+      });
 export default router;
