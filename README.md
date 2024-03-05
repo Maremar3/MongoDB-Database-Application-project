@@ -5,13 +5,13 @@
 * location(locationno,locationname)<br>
 ## Videoes Helped me <br>
 _TO  POST DOCUMENT_<br>
-https://www.youtube.com/watch?v=bJkRnvIT5jQ
+https://www.youtube.com/watch?v=bJkRnvIT5jQ<br>
 _TO DELETE DOCUMENT_<br>
-https://www.youtube.com/watch?v=DPHn_qs44QM
+https://www.youtube.com/watch?v=DPHn_qs44QM<br>
 _TO PATCH DOCUMENT_<br>
-https://www.youtube.com/watch?v=8wxLA_hTuSA
+https://www.youtube.com/watch?v=8wxLA_hTuSA<br>
 _To help me on validation_<br>
-https://www.mongodb.com/docs/v7.0/core/schema-validation/
+https://www.mongodb.com/docs/v7.0/core/schema-validation/<br>
 _This video explain how can we insert field into collection using mongo compass_<br>
 https://www.youtube.com/watch?v=bJSj1a84I20<br>
 we created empdata. Json to insert documents , then we imported it from mongodb compass(click om import then chose json file)<br><br>
