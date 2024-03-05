@@ -70,7 +70,7 @@ router.delete('/:id', async (req, res) => {
 //Createb indexes
 collection.createIndex({ locationno: 1 }, (err, result) => {
 
-  // do something
+  
 
 })
 
