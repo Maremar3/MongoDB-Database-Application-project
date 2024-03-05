@@ -36,7 +36,7 @@ router.post('/', async (req, res) => {
     res.json(result).status(201);
   });
   
-  
+  //PATCH to update any field value , but you have to execute  (get)employee by ID
 router.patch('/:id', async (req, res) => {
    const updates=req.body
    if(ObjectId.isValid(req.params.id)){   
@@ -51,7 +51,7 @@ router.patch('/:id', async (req, res) => {
     
     })
 
-//DELETE
+//DELETE to delete any document , but you have to execute  (get)employee by ID
 
 router.delete('/:id', async (req, res) => {
   if(ObjectId.isValid(req.params.id)){
@@ -66,12 +66,7 @@ router.delete('/:id', async (req, res) => {
   }else{
     res.status(500).json({error:'NOT A VALID DOC ID'})
   }
-  // let collection = await db.collection('emp');
-  // let query = { _id: new ObjectId(req.params.id) };
-  // let result = await collection.findOne(query);
-
-  // if (!result) res.status(404).send('Not found');
-  // else res.send(result).status(200);
+;
 });
 
 

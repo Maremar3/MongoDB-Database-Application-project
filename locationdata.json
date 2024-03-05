@@ -1,8 +1,23 @@
-[
-    { "locationno":11,"locationname":"Texes"},
-    { "locationno":22,"locationname":"Arizona"}
-    { "locationno":33,"locationname":"California"},
-    { "locationno":44,"locationname":"Nevada"},
-    { "locationno":55,"locationname":"New York"},
-
+[{
+  "_id": {
+    "$oid": "65e42c4a05110a2fc76454a1"
+  },
+  "locationno": 22,
+  "locationname": "Arizona"
+},
+{
+  "_id": "65e42c4a05110a2fc76454a2",
+  "locationno": 33,
+  "locationname": "TEXAS"
+},
+{
+    "_id": "65e42c4a05110a2fc76454a3",
+    "locationno": 44,
+    "locationname": "California"
+  },
+  {
+    "_id": "65e42c4a05110a2fc76454a5",
+    "locationno": 55,
+    "locationname": "New York"
+  }
 ]

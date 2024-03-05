@@ -1,8 +1,24 @@
-[
-    { "deptno":111,"deptname":"IT","locationno":11},
-    { "ldeptno":222,"deptname":"computer science","locationno":22},
-    { "deptno":333,"deptname":"Software Enginer","locationno":33},
-    { "deptno":444,"deptname":"Maintances","locationno":44},
-    { "deptno":555,"deptname":"Systems","locationno":55}
+[{
+  "_id": {
+    "$oid": "65e42c4a05110a2fc76454a1"
+  },
+  "locationno": 22,
+  "locationname": "Arizona"
+},
+{
+  "_id": "65e42c4a05110a2fc76454a2",
+  "locationno": 33,
+  "locationname": "TEXAS"
+},
+{
+  "_id": "65e42c4a05110a2fc76454a4",
+  "locationno": 44,
+  "locationname": "California"
+},
+{
+  "_id": "65e42c4a05110a2fc76454a5",
+  "locationno": 55,
+  "locationname": "Nevada"
+}
 
 ]
