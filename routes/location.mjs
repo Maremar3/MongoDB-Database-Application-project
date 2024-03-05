@@ -35,12 +35,12 @@ router.get('/', async (req, res) => {
         res.json(result).status(201);
       });
         //Update a Location_id PATCH
-      router.patch('/location/:locatinN', async (req, res) => {
- 
-        let query = { locationno: Number(req.params.locatinN) };
+      router.patch('/:id', async (req, res) => {
+        const up=req.body;
+        let query = { _id: ObjectId.isValid(req.params.id) };
       
-        let result = await collection.updateMany(query, {
-          $set: { locationno: req.body.locationno },
+        let result = await collection.updateOne(query, {
+          $set: up,
         });
       
         console.log(result)

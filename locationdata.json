@@ -1,5 +1,8 @@
 [
     { "locationno":11,"locationname":"Texes"},
     { "locationno":22,"locationname":"Arizona"}
+    { "locationno":33,"locationname":"California"},
+    { "locationno":44,"locationname":"Nevada"},
+    { "locationno":55,"locationname":"New York"},
 
 ]

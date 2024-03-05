@@ -1,5 +1,8 @@
 [
     { "deptno":111,"deptname":"IT","locationno":11},
-    { "ldeptno":222,"deptname":"computer science","locationno":22}
+    { "ldeptno":222,"deptname":"computer science","locationno":22},
+    { "deptno":333,"deptname":"Software Enginer","locationno":33},
+    { "deptno":444,"deptname":"Maintances","locationno":44},
+    { "deptno":555,"deptname":"Systems","locationno":55}
 
 ]
