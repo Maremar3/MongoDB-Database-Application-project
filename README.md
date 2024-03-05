@@ -11,7 +11,7 @@ To Export Jscon File from Visual Studio
 ![alt text](./image/image.png)
 <br>
 2-chose import, then chose your file <br>
-![alt text](./image/import.png)
+![alt text](./image/import.png) 
 
 
 
