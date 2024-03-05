@@ -67,7 +67,7 @@ router.delete('/:id', async (req, res) => {
  }
 ;
 });
-//Createb indexes
+//Createb indexes I didn't complete it 
 collection.createIndex({ locationno: 1 }, (err, result) => {
 
   

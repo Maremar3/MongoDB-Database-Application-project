@@ -3,6 +3,15 @@
 * emp for employee(id,name,deptnum)<br>
 * department (deptnum,deptname,location)<br>
 * location(locationno,locationname)<br>
+## Videoes Helped me <br>
+_TO  POST DOCUMENT_<br>
+https://www.youtube.com/watch?v=bJkRnvIT5jQ
+_TO DELETE DOCUMENT_<br>
+https://www.youtube.com/watch?v=DPHn_qs44QM
+_TO PATCH DOCUMENT_<br>
+https://www.youtube.com/watch?v=8wxLA_hTuSA
+_To help me on validation_<br>
+https://www.mongodb.com/docs/v7.0/core/schema-validation/
 _This video explain how can we insert field into collection using mongo compass_<br>
 https://www.youtube.com/watch?v=bJSj1a84I20<br>
 we created empdata. Json to insert documents , then we imported it from mongodb compass(click om import then chose json file)<br><br>
