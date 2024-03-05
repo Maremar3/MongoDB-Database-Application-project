@@ -25,7 +25,7 @@ _when I insert number to locationname it gave me that faild vlaidation_<br>
 ![alt text](./image/wrong.png)
 _when I insert ""FFF" string for location name now the validation is success_ <br>
 
-![alt text](r./image/ight.png)
+![alt text](r./image/right.png)
 
 
 
