@@ -6,7 +6,7 @@
 _This video explain how can we insert field into collection using mongo compass_<br>
 https://www.youtube.com/watch?v=bJSj1a84I20<br>
 we created empdata. Json to insert documents , then we imported it from mongodb compass(click om import then chose json file)<br><br>
-To Export Jscon File from Visual Studio
+To Export Jscon File from Visual Studio, I have 3 json files departmentdata,empdta,locationdata
 1- open MongoDB compass chose your collection then press import Data then press JSON , import file , chose your JSON file<br>
 
 ![alt text](./image/image.png)
